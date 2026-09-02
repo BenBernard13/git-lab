@@ -32,6 +32,9 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track)
 
 
+This has all of the files that haven't been added to the staging section of git. So all the files that aren't being 'tracked'.
+
+
 5.
 On branch main
 
@@ -46,6 +49,9 @@ Untracked files:
         answers.md
 
 
+Now, it has README.md as a file that is being tracked, but it hasn't been commited while answers.md is still untracked.
+
+
 6.
 On branch main
 
@@ -55,6 +61,9 @@ Changes to be committed:
   (use "git rm --cached <file>..." to unstage)
         new file:   README.md
         new file:   answers.md
+
+
+Now both files are being tracked and are on the staging section of git, but they haven't been commited yet.
 
 
 7.
@@ -77,8 +86,14 @@ Your branch is up to date with 'origin/main'.
 nothing to commit, working tree clean
 
 
+Now all of the files that I have been working on on my computer, are on GitHub online in the repository that I just made.
+
+
 10.
 No, the changes that I made on GihHub are not on my local README.md file
+
+
+Because I haven't refreshed my local directory and made sure that my local directory is up to date with the online repository in GitHub.
 
 
 11.
@@ -90,6 +105,9 @@ hint: have locally. This is usually caused by another repository pushing to
 hint: the same ref. If you want to integrate the remote changes, use
 hint: 'git pull' before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+
+Git push didn't work because it noticed that my local direcotries were not up to date with my GitHub repository, so it didn't want to overwirte a new version with my old version.
 
 
 12.
