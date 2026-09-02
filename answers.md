@@ -16,7 +16,7 @@ credential.helper=cache
 
 
 3.
-It shows a mini explanation of the most common cammands used in git. It doesn't show all of them, but it shows a lot of them and explains how to get more help with them. It also has a list of flags that you can use.
+- It shows a mini explanation of the most common cammands used in git. It doesn't show all of them, but it shows a lot of them and explains how to get more help with them. It also has a list of flags that you can use.
 
 
 4.
@@ -32,7 +32,7 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track)
 
 
-This has all of the files that haven't been added to the staging section of git. So all the files that aren't being 'tracked'.
+- This has all of the files that haven't been added to the staging section of git. So all the files that aren't being 'tracked'.
 
 
 5.
@@ -49,7 +49,7 @@ Untracked files:
         answers.md
 
 
-Now, it has README.md as a file that is being tracked, but it hasn't been commited while answers.md is still untracked.
+- Now, it has README.md as a file that is being tracked, but it hasn't been commited while answers.md is still untracked.
 
 
 6.
@@ -63,7 +63,7 @@ Changes to be committed:
         new file:   answers.md
 
 
-Now both files are being tracked and are on the staging section of git, but they haven't been commited yet.
+- Now both files are being tracked and are on the staging section of git, but they haven't been commited yet.
 
 
 7.
@@ -86,14 +86,11 @@ Your branch is up to date with 'origin/main'.
 nothing to commit, working tree clean
 
 
-Now all of the files that I have been working on on my computer, are on GitHub online in the repository that I just made.
+- Now all of the files that I have been working on on my computer, are on GitHub online in the repository that I just made.
 
 
 10.
-No, the changes that I made on GihHub are not on my local README.md file
-
-
-Because I haven't refreshed my local directory and made sure that my local directory is up to date with the online repository in GitHub.
+- No, the changes that I made on GihHub are not on my local README.md file This is because I haven't refreshed my local directory and made sure that my local directory is up to date with the online repository in GitHub.
 
 
 11.
@@ -107,11 +104,11 @@ hint: 'git pull' before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
 
-Git push didn't work because it noticed that my local direcotries were not up to date with my GitHub repository, so it didn't want to overwirte a new version with my old version.
+- Git push didn't work because it noticed that my local direcotries were not up to date with my GitHub repository, so it didn't want to overwirte a new version with my old version.
 
 
 12.
-Yes, now the changes that I made on GitHub are in my local README.md file
+- Yes, now the changes that I made on GitHub are in my local README.md file
 
 
 13.
